@@ -1,0 +1,1220 @@
+/*desktop site*/
+@media only screen and (min-width: 1200px) {
+html{
+    scroll-behavior: smooth;
+  }
+     *{
+      font-family: sans-serif;
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+    
+     }
+    
+     
+     ::selection{
+       color: #08b851;
+       background-color: #960e62;
+     }
+     .easy-access, .social{
+       display: none;
+     }
+     
+      .online-apply{
+        position: sticky;
+        top:0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;                   
+       
+        background-color: rgb(170, 250, 152);
+      }
+      .online-apply h3,a{
+        color: rgb(10, 10, 10);
+        text-decoration: none;
+      }
+      .online-apply i{
+        font-size: 50pxpx;
+        padding-left: 40px;
+        color: rgb(5, 5, 5);
+      }
+      .logo {
+           display: flex;
+           margin-left: 150px;
+      }
+      .logo h1{
+          font-size: 20px;
+      }
+      .logo h1::first-letter{
+        color: #cc4865;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      }
+      .logo i{
+          font-size: 80px;
+          color: #111111;
+          padding-right: 20px;
+      }
+      nav{
+        
+       
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(226, 235, 224);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(49, 100, 62);
+ 
+     }
+    nav ul{
+         display: flex;
+         justify-content: space-between;
+         margin-right: 100px;
+  
+          }
+    nav ul i{
+      padding-left: 5px;
+          }
+      ul li{
+        list-style-type: none;
+  
+          }
+      nav ul li a{
+          color: rgb(30, 36, 30);
+          text-decoration: none;
+          padding-right: 50px;
+          }
+      ul li a:hover{
+          color: rgb(201, 24, 68);
+  
+           }
+      nav ul li ul{
+          width: auto;
+          display: block;
+          position: absolute;
+          padding: 20px;
+          background-color: rgb(226, 235, 224);
+
+           }
+         
+        nav ul li ul li{
+          display:none;
+          color: #123f2b;
+          padding-top: 20px;
+          
+           }
+        nav ul li ul li a{
+            color: rgb(49, 6, 241);
+           }
+        nav ul li:hover ul li{
+         
+          display:block  
+           }
+        .first-sec{
+          width: 100%;
+          height: 700px;
+          background: url(https://www.citizenbeverlyhills.com/wp-content/uploads/2019/07/images1823-5d24a856ed095-1024x576.jpg);
+          background-size: cover;
+          background-position: center;
+           }
+        .sec-info{
+            
+            padding-top: 10%;
+            padding-left: 10%;     
+           }
+        
+        .first-sec h1{
+          color: rgb(230, 238, 233);
+          font-size: 50px;
+           }
+        .first-sec p{
+          color: rgb(228, 236, 228);
+          padding-bottom: 20px;
+          font-size: 30px;
+          font-weight: bolder;
+            }
+        .first-sec button{
+          width: 120px;
+          height: 50px;
+          border: none;
+          border-radius: 5px;
+          background-color: #0b0c0b;
+            }
+            button a{
+              color: #ebf5f0;
+            }
+        .first-sec button:hover{
+          background-color: #404440;
+           }
+        .second-sec{
+         
+          width: 100%;
+          height: 800px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #f1f2f5;
+            }
+            .second-sec div{
+              padding: 30px;
+            }
+            .second-sec div img{
+              width: 300px;
+              height: 300px;  
+            }
+            .second-sec div p{
+              width:250px;
+              text-align: justify;
+            }
+            .second-sec div h3{
+              color: #070707;
+                padding-bottom: 30px;
+            }
+            .second-sec div h2{
+              color: #0d0e0d;
+              padding-bottom: 30px;
+             }
+           
+            .department{
+              
+              width: 250px;
+              height:500px;          
+              margin-top:-300px; 
+              margin-left: 30px;      
+              padding: 20px;
+              background-color: #a4b4a2;
+              
+            }
+            .department i{
+              color: #0b0c0b;
+              font-size: 100px;
+            }
+            .department i:hover{
+              color: #444944;
+
+            }
+            .second-sec p{
+              color: #123f2b;
+              padding-bottom: 20px;
+            }
+            .read-more{
+              color: #0e0d0d;
+            }
+            .read-more:hover{
+              color: #4e524e;
+            }
+            .third-sec{
+              width: 100%;
+              height: 800px;
+              background-color: #babbc0;
+            }
+            .courses{
+               display: flex;
+              align-items: center;
+              justify-content: center;
+             
+            }
+           
+            
+            .courses div{
+             
+              padding: 50px;
+            }
+            .courses img{
+              width: 300px;
+              height: 300px; 
+              border-radius: 5px;
+            }
+            .courses p{
+              width: 300px;
+              text-align: justify;
+            }
+            .courses h3{
+              color: #080808;
+            }
+            .courses button{
+  
+              width: 90px;
+              height: 30px;
+              margin-top: 20px;
+              border: none;
+              border-radius: 5px;
+              background-color: #080808;
+            }
+           
+            .courses div button:hover{
+              background-color: #4a4d4a;
+            }
+            .third-sec h3 a {
+              color: #fafdfb;
+              border-bottom:2px solid #0b9412;
+              font-size: 50px;
+              margin-left: 60px;
+            }
+            .fourth-section{
+              width: 100%;
+              height: 700px;
+              background-color: #cad2e9;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+            .animation{
+              width: 70px;
+              height: 70px;
+              margin-top: 60px;
+              position: relative;
+              background-color: #070707;
+              animation-name: animation;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+            }
+            @keyframes animation {
+              0%{
+                background-color: #070707;
+                left: 0;
+                top: 0;
+              }
+              25%
+              {
+                transform: rotate(45);
+                background-color: #9427aa;
+                box-shadow: 3px 3px 5px black;
+
+              }
+              50%{
+                transform: rotate(-90deg);
+                background-color: #70e4f8;
+                box-shadow: 3px 3px 5px black;
+
+
+              }
+              75%{
+                border-radius: 20px;
+                transform: rotate(180deg);
+                background-color: #c6d823;
+              }
+              100%{
+                transform: rotate(180deg);
+                left: 95%;
+                top: 0;
+              }
+            }
+            .department:hover i{
+              position: relative;
+              animation-name: icons;
+              border-radius: 10px;
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+            }
+            @keyframes icons{
+            0% {
+              transform: rotate(0deg);
+
+            }
+            25%
+            {
+              transform: rotate(45);
+
+            }
+            50%{
+              transform: rotate(90deg);
+
+
+            }
+            75%{
+              transform: rotate(270deg);
+            }
+            100%{
+              transform: rotate(360deg);
+
+              
+            } 
+              
+            }
+            .about-us{
+              
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .tour{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 600px;
+              height: 400px;
+              background: url(https://i0.wp.com/ghstudents.com/wp-content/uploads/2020/06/how_to_become_a_software_engineer.jpg?resize=640%2C360&ssl=1);
+              background-size: cover;
+            }
+            .tour h1{
+              color: #deece5;
+              font-size: 50px;
+            }
+            .tour h1:hover{
+              color: #0b9412;
+            }
+            .about{ 
+              padding:50px;
+              width: 500px;
+              height: 500px;
+            }
+            .about p{
+            text-align: justify;
+            }
+            .about button{
+              width: auto;
+              height: 40px;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              margin-top: 70px;
+              background-color: #131414;
+            }
+            .about button:hover{
+              background-color: #444645;
+            }
+            footer{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              height: 500px;
+              background-color: #253125;
+            }
+            .footer-info{
+              width: 100%;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+            }
+            .footer-info div{
+              width: 300px;
+              height: 400px;
+             
+            }
+            .clubs a{
+              color: #e0e9e4;
+            }
+            .connect-withus p{
+            text-align: justify;
+            color: #fdfffd;
+            }
+            .connect-withus div{
+              display: flex;
+            }
+            .footer-info div p{
+              color: #cad2e9;
+              padding: 15px;
+            }
+            .footer-info div h2{
+              color: #a4f5d0;
+              padding: 10px;
+            } 
+            .footer-info  i{
+              padding: 10px;
+               color: #7ecad4;
+            }
+            .useful-Links a{
+                text-decoration: none;
+                color: #e8e7f0;
+              }
+           
+            }
+            /*mobile devices*/
+            
+
+@media only screen and (max-width: 768px) {
+  .class img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+   
+   .online-apply{
+     display: none;
+   }
+   
+ 
+.easy-access{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:40px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 5px black;
+  background-color: rgb(226, 235, 224);
+}
+.easy-access ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.easy-access ul li{
+list-style-type: none;
+}
+.easy-access ul li a{
+  color: rgb(12, 12, 12);
+  border-left:  1px solid rgb(104, 56, 56);
+  text-decoration: none;
+  padding: 6px;
+  font-size: 10px;
+}
+.easy-access ul li a:hover{
+  border-bottom: 2px solid black;
+  color: rgb(32, 125, 248);
+  
+
+}
+.social{
+
+  width: 100%;
+  height: 30px;
+  background-color: navajowhite;
+  box-shadow: 3px 3px 5px black;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social div i {
+  padding: 10px;
+  
+}
+.social div i:hover{
+  color: rgb(255, 0, 242);
+}
+.logo{
+  background-color: rgb(238, 240, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo h1{
+  padding-left: 7px;
+  color: #121312;
+  text-shadow: 3px 3px 10px rgb(173, 71, 40);
+}
+.logo h1::first-letter{
+  color: #cc4865;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo i{
+  color: #262926;
+  font-size: 90px;
+}
+nav ul{
+ width: 100;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-right: 50px;
+
+ 
+}
+nav ul li{
+ 
+  list-style-type: none;
+  padding: 20px;
+}
+nav ul li a{
+  
+  color: #d6e2db;
+  text-decoration: none;
+}
+
+nav ul li ul{
+ 
+  display:flex;
+flex-direction: column;
+justify-content: center;
+margin-left: -19px;
+align-items: center;
+
+
+} 
+nav ul li ul:hover a{
+  color: #e0dd15;
+}  
+nav ul li ul li{
+  
+display: none;
+}
+nav ul li ul li a{
+color: blanchedalmond;
+
+}
+nav ul li ul li a:hover{
+  color: #db257a;
+}
+nav ul li:hover ul li{
+  display: block;
+}
+.home{
+  
+  text-align: center;
+  width: 100%;
+  background-color: rgb(40, 44, 42); 
+}
+.Studentdrop{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(40, 44, 42); 
+ }
+.aboutdrop{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(40, 44, 42); 
+ }
+
+.Addmissiondrop{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(40, 44, 42); 
+ }
+.mediadrop{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(40, 44, 42); 
+}
+.first-sec{
+    width: 100%;
+    height: auto;
+    background: url(https://www.citizenbeverlyhills.com/wp-content/uploads/2019/07/images1823-5d24a856ed095-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+     }
+     .sec-info{
+      position:static ;
+        padding-top: 80%;
+      padding-left: 10%;     
+     }
+     .first-sec h1{
+      color: rgb(230, 238, 233);
+     
+       }
+    .first-sec p{
+      color: rgb(228, 236, 228);
+      padding-bottom: 20px;
+      font-weight: bolder;
+        }
+     .first-sec button{
+      width: 120px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      background-color: #050505;
+        }
+        .first-sec button a{
+          text-decoration: none;
+          color: rgb(215, 228, 214);
+        }
+    .first-sec button:hover{
+      background-color: #2a2e2a;
+       }
+       .second-sec{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .department{
+         width: 90%;   
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background-color: #d3ddd4;
+       }
+       .department i{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: #1c201c;
+      }
+      .department i:hover{
+        color: #2bdb25;
+      }
+      .department p{
+        color: rgb(20, 18, 18);
+      }
+      .class{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .class img {
+        width: 300px;
+        height: 300px; 
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+  }
+      .class img:hover{
+        transform: scale(45deg);
+        box-shadow: 3px 3px 5px #949996 ;
+      }
+      .class p{
+        color: #050505;
+        width: 300px;
+        text-align: justify;
+      }
+      .class a{
+        text-decoration: none;
+      }
+      .read-more{
+        color: #cc4646;
+      }
+      .read-more:hover{
+        color: #0a0a0a;
+      }
+      .courses{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .courses img{
+        width: 300px;
+        height: 300px; 
+        border-radius: 5px;
+      }
+    
+      .courses p{
+        color: #0d0e0d;
+        width: 300px;
+        text-align: justify;
+      }
+      .courses a{
+        text-decoration: none;
+      }
+      .courses button{
+  
+        width: 90px;
+        height: 30px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #0a0a0a;
+      }
+      .courses button a{
+        color: #f7f2f2;
+      }
+     
+      .courses div button:hover{
+        background-color: #282c28;
+      }
+      .fourth-section{
+        width: 100%;
+        height: auto;
+        background-color: #cad2e9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .about-us{
+              
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .tour{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background: url(https://i0.wp.com/ghstudents.com/wp-content/uploads/2020/06/how_to_become_a_software_engineer.jpg?resize=640%2C360&ssl=1);
+        background-size: cover;
+        background-position: center;
+      }
+      .tour h1{
+        color: #920e9e;
+        font-size: 30px;
+      }
+      .tour a{
+        text-decoration: none;
+      }
+      .tour P{
+        margin-left: 10px;
+        color: #99ec13;
+        font-size: 20px;
+      }
+      .tour h1:hover{
+        color: #0b9412;
+      }
+      .about{ 
+        padding:50px;
+        width: 300px;
+        height: 700px;
+      }
+      .about p{
+        text-align: justify;
+        }
+        .about button{
+          width: auto;
+          height: 40px;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+         
+          background-color: #08630d;
+        }
+        .about button a{
+            text-decoration: none;
+            color: #89eb8d;
+        }
+        .about button:hover{
+          background-color: #08b851;
+        }
+        footer{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: auto;
+          background-color: #3f413f;
+        }
+        footer a:hover{
+          color: #960e62 ;
+        }
+        .footer-info{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .footer-info div{
+          width: 250px;
+          height:auto;
+         
+        }
+        .connect-withus p{
+          text-align: justify;
+          }
+          .connect-withus div{
+            display: flex;
+          }
+         
+          .footer-info div p{
+            color: #f4faf4;
+            padding: 15px;
+          }
+          .footer-info div h2{
+            color: #d1ece0;
+            padding: 10px;
+          } 
+          .footer-info  i{
+            padding: 3px;
+             color: #7ecad4;
+          }
+          .clubs a {
+            text-decoration: none;
+            color: #edf1ed;
+            margin-left: 10px;
+          }
+          .clubs i{
+            padding-left: 5px;
+          }
+          .useful-Links p a{
+            text-decoration: none;
+            color: #e9f3e9;
+          }
+  }
+  /*tablet devices*/
+  @media only screen and (min-width: 768px){
+    @media only screen and (max-width: 1200px){
+      
+          html{
+              scroll-behavior: smooth;
+            }
+               *{
+                font-family: sans-serif;
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;           
+               }
+               
+               
+               ::selection{
+                 color: #08b851;
+                 background-color: #960e62;
+               }
+              
+               .easy-access, .social{
+                 display: none;
+               }
+               
+                .online-apply{
+                  position: sticky;
+                  top:0%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;                   
+                 
+                  background-color: rgb(226, 235, 224);
+                }
+                .online-apply h3,a{
+                  color: rgb(10, 10, 10);
+                  text-decoration: none;
+                }
+                .online-apply i{
+                  font-size: 50pxpx;
+                  padding-left: 40px;
+                  color: rgb(5, 5, 5);
+                }
+                .logo {
+                     display: flex;
+                     margin-left: 150px;
+                }
+                .logo h1{
+                    font-size: 20px;
+                }
+                .logo h1::first-letter{
+                  color: #cc4865;
+                  font-size: 30px;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
+                }
+                .logo i{
+                    font-size: 80px;
+                    color: #111111;
+                    padding-right: 20px;
+                }
+                nav{
+                  
+                 
+                  width: 100%;
+                  height: 100px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  background-color: rgb(226, 235, 224);
+                  border-radius: 10px;
+                  box-shadow: 3px 3px 5px rgb(49, 100, 62);
+           
+               }
+              nav ul{
+                   display: flex;
+                   justify-content: space-between;
+                   margin-right: 100px;
+            
+                    }
+              nav ul i{
+                padding-left: 5px;
+                    }
+                ul li{
+                  list-style-type: none;
+            
+                    }
+                nav ul li a{
+                    color: rgb(30, 36, 30);
+                    text-decoration: none;
+                    padding-right: 50px;
+                    }
+                ul li a:hover{
+                    color: rgb(201, 24, 68);
+            
+                     }
+                nav ul li ul{
+                    width: auto;
+                    display: block;
+                    position: absolute;
+                    background-color: rgb(226, 235, 224);
+          
+                     }
+                   
+                  nav ul li ul li{
+                    display:none;
+                    color: #123f2b;
+                    padding-top: 20px;
+                    
+                     }
+                  nav ul li ul li a{
+                      color: rgb(49, 6, 241);
+                     }
+                  nav ul li:hover ul li{
+                   
+                    display:block  
+                     }
+                     .Studentdrop i{
+                      display: none;
+                     }
+                     .aboutdrop i{
+                      display: none;
+                     }
+                     .Addmissiondrop i{
+                      display: none;
+                     }
+                     .mediadrop i{
+                      display: none;
+  
+                     }
+                  .first-sec{
+                    width: 100%;
+                    height: 700px;
+                    background: url(https://www.citizenbeverlyhills.com/wp-content/uploads/2019/07/images1823-5d24a856ed095-1024x576.jpg);
+                    background-size: cover;
+                    background-position: center;
+                     }
+                  .sec-info{
+                      
+                      padding-top: 10%;
+                      padding-left: 10%;     
+                     }
+                  
+                  .first-sec h1{
+                    color: rgb(230, 238, 233);
+                    font-size: 50px;
+                     }
+                  .first-sec p{
+                    color: rgb(228, 236, 228);
+                    padding-bottom: 20px;
+                    font-size: 30px;
+                    font-weight: bolder;
+                      }
+                  .first-sec button{
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #0b0c0b;
+                      }
+                      button a{
+                        color: #ebf5f0;
+                      }
+                  .first-sec button:hover{
+                    background-color: #404440;
+                     }
+                  .second-sec{
+                   
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #f1f2f5;
+                      }
+                      .second-sec div{
+                        padding: 30px;
+                      }
+                      .second-sec div img{
+                        width: 300px;
+                        height: 300px;  
+                      }
+                      .second-sec div p{
+                        width:250px;
+                        text-align: justify;
+                      }
+                      .second-sec div h3{
+                        color: #070707;
+                          padding-bottom: 30px;
+                      }
+                      .second-sec div h2{
+                        color: #0d0e0d;
+                        padding-bottom: 30px;
+                       }
+                     
+                      .department{
+                        
+                        width: 250px;
+                        height:500px;          
+                        margin-top:-300px; 
+                        margin-left: 30px;      
+                        padding: 20px;
+                        background-color: #a4b4a2;
+                        
+                      }
+                      .department i{
+                        color: #0b0c0b;
+                        font-size: 100px;
+                      }
+                      .department i:hover{
+                        color: #444944;
+          
+                      }
+                      .second-sec p{
+                        color: #123f2b;
+                        padding-bottom: 20px;
+                      }
+                      .read-more{
+                        color: #0e0d0d;
+                      }
+                      .read-more:hover{
+                        color: #4e524e;
+                      }
+                      .third-sec{
+                        width: 100%;
+                        height: auto;
+                        background-color: #edeef1;
+                      }
+                      
+                      .courses{
+                         display: flex;
+                         flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                       
+                      }
+                      .courses div{
+                       
+                        padding: 50px;
+                      }
+                      .courses img{
+                        width: 300px;
+                        height: 300px; 
+                        border-radius: 5px;
+                      }
+                      .courses p{
+                        width: 300px;
+                        text-align: justify;
+                      }
+                      .courses h3{
+                        color: #080808;
+                      }
+                      .courses button{
+            
+                        width: 90px;
+                        height: 30px;
+                        margin-top: 20px;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: #080808;
+                      }
+                     
+                      .courses div button:hover{
+                        background-color: #4a4d4a;
+                      }
+                      .third-sec h3 a {
+                        color: #fafdfb;
+                        border-bottom:2px solid #0b9412;
+                        font-size: 50px;
+                        margin-left: 60px;
+                      }
+                      .fourth-section{
+                        width: 100%;
+                        height: auto;
+                        background-color: #cad2e9;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                      .about-us{
+                        
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                      }
+                      .tour{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 600px;
+                        height: 400px;
+                        background: url(https://i0.wp.com/ghstudents.com/wp-content/uploads/2020/06/how_to_become_a_software_engineer.jpg?resize=640%2C360&ssl=1);
+                        background-size: cover;
+                      }
+                      .tour h1{
+                        color: #deece5;
+                        font-size: 50px;
+                      }
+                      .tour h1:hover{
+                        color: #0b9412;
+                      }
+                      .about{ 
+                        padding:50px;
+                        width: 500px;
+                        height: 500px;
+                      }
+                      .about p{
+                      text-align: justify;
+                      }
+                      .about button{
+                        width: auto;
+                        height: 40px;
+                        padding: 10px;
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 70px;
+                        background-color: #131414;
+                      }
+                      .about button:hover{
+                        background-color: #444645;
+                      }
+                      footer{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height:auto;
+                        background-color: #253125;
+                      }
+                      .footer-info{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                      }
+                      .footer-info div{
+                        width: 300px;
+                        height: 400px;
+                       
+                      }
+                      .connect-withus p{
+                      text-align: justify;
+                      }
+                      .connect-withus div{
+                        display: flex;
+                      }
+                      .footer-info div p{
+                        color: #cad2e9;
+                        padding: 15px;
+                      }
+                      .footer-info div h2{
+                        color: #a4f5d0;
+                        padding: 10px;
+                      } 
+                      .footer-info  i{
+                        padding: 10px;
+                         color: #7ecad4;
+                      }
+                      .useful-Links p a{
+                        text-decoration: none;
+                        color: #e9f3e9;
+                      }
+                     
+                      }}
+  
+      
+  

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+  body{
+      font-family: sans-serif;
+    color: white;
+    }
+    @media only screen and (max-width: 1200px) {
+       .admission-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+      }
+
+
+    i{
+        color: tomato;
+        font-size: 70px;
+        margin-left: 40%;
+    }
+    .form{
+
+        width: 100%;
+        height: 800px;
+        background: url(https://www.citizenbeverlyhills.com/wp-content/uploads/2019/07/images1823-5d24a856ed095-1024x576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: rgb(36, 32, 27);
+        background-blend-mode: overlay;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input[type="number"]{
+        width: 100%;
+        height: 20px;
+        padding: 10px;
+        color: aliceblue;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+    }
+    input[type="submit"]{
+        margin-top: 10px;
+    }
+    .admission-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .admission-info a{
+        color: aliceblue;
+
+    } 
+    
+    button{
+        height: 30px;
+        width: 80px;
+        background-color: chartreuse;
+        border: none;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    button a{
+        text-decoration: none;
+    }
+    </style>
+  
+</head>
+<body>
+<div class="form">
+    <div class="form-sec">
+         <i class="fa-solid fa-school"></i>
+        <h1>   LAMAR TRAINING INSTITUTE</h1>
+        Online Application Portal<h4></h4>
+        <p>Login with your e-Voucher <br>
+            Serial Number and PIN</p>
+        <form action="" method="post">
+         <input type="number"placeholder="Serial Number" required><br>
+         <input type="number" placeholder="Pin" required><br> 
+         <input type="submit">
+        </form>
+        <div class="admission-info">
+            <p><a href="">Admissions Information & Instructions</a> 
+               <a href="#">Buy eVounchers</a> </p>
+                <button><a href="#">Sign In</a></button>
+        </div>
+       
+   </div>
+</div>
+</body>
+</html>
